@@ -81,9 +81,7 @@ void showProducts(struct Product list[], int n) {
         printf("Chua co san pham nao, hay chon 1 truoc.\n");
         return;
     }
-    printf("%-5s %-12s %-40s %-10s %12s %8s %15s\n",
-           "STT", "Ma", "Ten san pham", "Don vi",
-           "Don gia", "SL", "Gia tri ton");
+    printf("STT", "Ma", "Ten san pham", "Don vi","Don gia", "SL", "Gia tri ton");
     printf("---------------------------------------------------------------------------------------------------------------\n");
     for (i = 0; i < n; i++) {
         printf("%-5d %-12s %-40s %-10s %12.0f %8d %15.0f\n",
